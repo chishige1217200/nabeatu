@@ -14,4 +14,4 @@ def nabeatu(num: int):
 # main
 for num in range(0, 401):
     if nabeatu(num):
-        print(str(num))
+        print(num)
