@@ -5,6 +5,8 @@ def nabeatu(num: int):
         return True
 
     s = str(num)
+    if '3' in s:
+        return True
 
     return False
 
