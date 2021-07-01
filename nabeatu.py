@@ -4,8 +4,7 @@ def nabeatu(num: int):
     if num % 3 == 0:
         return True
 
-    s = str(num)
-    if '3' in s:
+    if '3' in str(num):
         return True
 
     return False
